@@ -13,11 +13,11 @@ body{
             left: 15px;
         }
         h2 {
-            font:20px helvetica;
+            font:40px helvetica;
             color: rgb(38, 43, 38);
             }
         h3 {
-            font:italic 18px helvetica;
+            font:italic 30px helvetica;
             color: rgb(38, 43, 38);
         }
         #list {
@@ -26,7 +26,7 @@ body{
             border: solid rgb(27, 74, 33);
             padding-left:3px;
             margin-left: 5px;
-            font: 15px helvetica;
+            font: 20px helvetica;
             color: rgb(26, 41, 27);
             width: 70%;
             height: 175px;
@@ -35,11 +35,11 @@ body{
             
         }
         p {
-            font:13px arial;
+            font:20px arial;
             color: rgb(26, 41, 27);
         }
         ul{
-            font:15px helvetica;
+            font:25px helvetica;
             float: left;
             top: 810px;
             left: 15px;
