@@ -8,7 +8,8 @@ body{
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
-            position:center;
+            display: block;
+            margin: 0 auto;
         }
         
         .pic {
@@ -75,9 +76,12 @@ body{
         /*buttons*/
 input.MyButton {
 width: 255px;
+height: 50PX;
+margin:5px;
 padding: 20px;
 font-weight: bold;
 font-size: 150%;
+text-align: center;
 background: rgb(27, 74, 33);
 color: #FFFFFF;
 cursor: pointer;
