@@ -1,8 +1,22 @@
 body{
             background-color: rgb(67, 153, 43);
         }
-        image {
+        .image {
             clear:both;
+            width:70%;
+            margin:10px;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
+            position:center;
+        }
+        
+        .pic {
+            clear:both;
+            width:40%;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
         }
         
         h1 {
@@ -22,11 +36,15 @@ body{
         }
         #list {
             background-color: rgb(207, 199, 207);
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
             float: right;
-            border: solid rgb(27, 74, 33);
+            border: solid rgb(27, 74, 33) 2px;
+            margin:10px;
             padding-left:3px;
             margin-left: 5px;
-            font: 20px helvetica;
+            font: 15px helvetica;
             color: rgb(26, 41, 27);
             width: 70%;
             height: 175px;
@@ -34,12 +52,14 @@ body{
             overflow-x: hidden;
             
         }
+            
+        }
         p {
             font:20px arial;
             color: rgb(26, 41, 27);
         }
         ul{
-            font:25px helvetica;
+            font:15px helvetica;
             float: left;
             top: 810px;
             left: 15px;
@@ -47,8 +67,10 @@ body{
             font-family:helvetica;
             color: rgb(26, 41, 27);
             background-color:rgb(207, 199, 207);
-            border:solid rgb(27, 74, 33);
-            
+            border:solid rgb(27, 74, 33) 2px;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
         }
         /*buttons*/
 input.MyButton {
