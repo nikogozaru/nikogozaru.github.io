@@ -80,8 +80,11 @@ body{
             width: 200px;
             height:150px;
             margin: 200px;
+        }
+        
+        .review p {
             font:45px helvetica;
-     
+            color: rgb(26, 41, 27);        
         }
         /*buttons*/
 input.MyButton {
