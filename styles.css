@@ -35,6 +35,12 @@ body{
             font:italic 50px helvetica;
             color: rgb(38, 43, 38);
         }
+        
+        p {
+            font:30px helvetica;
+            color: rgb(26, 41, 27);
+        }
+        
         #list {
             background-color: rgb(207, 199, 207);
             border-radius: 10px;
@@ -54,10 +60,6 @@ body{
             
         }
             
-        p {
-            font:30px helvetica;
-            color: rgb(26, 41, 27);
-        }
         ul{
             font:45px helvetica;
             float: left;
