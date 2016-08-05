@@ -35,6 +35,12 @@ body{
             font:italic 50px helvetica;
             color: rgb(38, 43, 38);
         }
+        
+        p {
+            font:30px helvetica;
+            color: rgb(26, 41, 27);
+        }
+        
         #list {
             background-color: rgb(207, 199, 207);
             border-radius: 10px;
@@ -48,17 +54,12 @@ body{
             font: 45px helvetica;
             color: rgb(26, 41, 27);
             width: 70%;
-            height: 175px;
+            height: 200px;
             overflow-y: auto;
             overflow-x: hidden;
             
         }
             
-        }
-        p {
-            font:30px helvetica;
-            color: rgb(26, 41, 27);
-        }
         ul{
             font:45px helvetica;
             float: left;
@@ -68,6 +69,7 @@ body{
             font-family:helvetica;
             color: rgb(26, 41, 27);
             background-color:rgb(207, 199, 207);
+            margin-bottom:50px;
             border:solid rgb(27, 74, 33) 2px;
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
@@ -91,27 +93,28 @@ body{
         }
         /*buttons*/
 input.MyButton {
-width: 255px;
-height: 50PX;
-margin:5px;
-padding: 10px;
-font-weight: bold;
-font-size: 150%;
-text-align: center;
-background: rgb(27, 74, 33);
-color: #FFFFFF;
-cursor: pointer;
-border: 1px solid #999999;
-border-radius: 10px;
--webkit-box-shadow: 6px 6px 5px #999999;
--moz-box-shadow: 6px 6px 5px #999999;
+            width: 255px;
+            height: 50PX;
+            margin:5px;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 150%;
+            text-align: center;
+            background: rgb(27, 74, 33);
+            color: #FFFFFF;
+            cursor: pointer;
+            border: 1px solid #999999;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
 }
+
 input.MyButton:hover {
-color: #FFFF00;
-background: rgb(43, 87, 54);
-border: 1px solid #A3A3A3;
--webkit-box-shadow: 2px 2px 5px #666666;
--moz-box-shadow: 2px 2px 5px #666666;
+            color: #FFFF00;
+            background: rgb(43, 87, 54);
+            border: 1px solid #A3A3A3;
+            -webkit-box-shadow: 2px 2px 5px #666666;
+            -moz-box-shadow: 2px 2px 5px #666666;
 
 }
         
