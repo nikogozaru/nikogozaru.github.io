@@ -51,7 +51,7 @@ body{
             margin:10px;
             padding-left:3px;
             margin-left: 5px;
-            font: 1.8em helvetica;
+            font: 1.4em helvetica;
             color: rgb(26, 41, 27);
             width: 70%;
             height: 200px;
@@ -61,7 +61,7 @@ body{
         }
             
         ul{
-            font:1.8em helvetica;
+            font:1.4em helvetica;
             float: left;
             top: 810px;
             left: 15px;
@@ -88,7 +88,7 @@ body{
         }
         
         .review p {
-            font:30px helvetica;
+            font:1.3em helvetica;
             color: rgb(26, 41, 27);        
         }
         /*buttons*/
