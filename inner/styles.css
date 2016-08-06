@@ -41,7 +41,7 @@ body{
             font:1.3em helvetica;
             color: rgb(26, 41, 27);
             width:70%;
-            margin-left:4em;
+            margin-left:5.5em;
         }
         
         #list {
@@ -72,7 +72,8 @@ body{
             font-family:helvetica;
             color: rgb(26, 41, 27);
             background-color:rgb(207, 199, 207);
-            margin-bottom:50px;
+            margin-left:5.5em;
+            margin-bottom:1em;
             border:solid rgb(27, 74, 33) 2px;
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
@@ -82,12 +83,13 @@ body{
         .review {
            
             display: inline-block;
-            width: 500px;
-            height:100px;
-            margin-top: 30px;
-            margin-left: 30px;
-            margin-right: 10px;
-            margin- left: 10px;
+    width: 40%;
+    height:40%;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: .8em;
+    margin-bottom: .8em;
+    
         }
         
         .review p {
