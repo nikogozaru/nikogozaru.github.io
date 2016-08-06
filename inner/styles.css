@@ -40,9 +40,8 @@ body{
         p {
             font:1.3em helvetica;
             color: rgb(26, 41, 27);
-            clear:both;
             width:70%;
-            margin:10px;
+            margin-left:4em;
         }
         
         #list {
