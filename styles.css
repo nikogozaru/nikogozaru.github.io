@@ -21,23 +21,23 @@ body{
         }
         
         h1 {
-            font:220px cursive;
+            font:11em cursive;
             color: rgb(27, 74, 33);
             position:absolute;
             top: 35px;
             left: 15px;
         }
         h2 {
-            font:60px helvetica;
+            font:2em helvetica;
             color: rgb(38, 43, 38);
             }
         h3 {
-            font:italic 50px helvetica;
+            font:italic 1.8em helvetica;
             color: rgb(38, 43, 38);
         }
         
         p {
-            font:30px helvetica;
+            font:1.3em helvetica;
             color: rgb(26, 41, 27);
         }
         
@@ -51,7 +51,7 @@ body{
             margin:10px;
             padding-left:3px;
             margin-left: 5px;
-            font: 45px helvetica;
+            font: 1.8em helvetica;
             color: rgb(26, 41, 27);
             width: 70%;
             height: 200px;
@@ -61,7 +61,7 @@ body{
         }
             
         ul{
-            font:45px helvetica;
+            font:1.8em helvetica;
             float: left;
             top: 810px;
             left: 15px;
