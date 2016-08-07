@@ -105,12 +105,12 @@ background-image: url(https://www.transparenttextures.com/patterns/black-thread-
         }
         /*buttons*/
 input.MyButton {
-            width: 10em;
-            height: 3em;
+            width: 22%;
+            height: 2em;
             margin: .4em;
             padding: .2em;
             font-weight: bold;
-            font-size: 2em;
+            font-size: 50%;
             text-align: center;
             background: rgb(27, 74, 33);
             color: #FFFFFF;
