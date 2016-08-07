@@ -63,6 +63,11 @@ body{
             overflow-x: hidden;
             
         }
+        #list_p {
+            font:1.4em helvetica;
+            color: rgb(38, 43, 38); 
+            margin-left: 1.5px;
+        }
             
         ul{
             font:1.4em helvetica;
