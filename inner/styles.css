@@ -95,7 +95,8 @@ body{
         
         .review p {
             font:1.3em helvetica;
-            color: rgb(26, 41, 27);        
+            color: rgb(26, 41, 27);
+            margin-left:2em;
         }
         /*buttons*/
 input.MyButton {
