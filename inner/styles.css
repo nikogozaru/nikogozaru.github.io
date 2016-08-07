@@ -105,17 +105,17 @@ body{
         }
         /*buttons*/
 input.MyButton {
-            width: 255px;
-            height: 50PX;
-            margin:5px;
-            padding: 10px;
+            width: 22%;
+            height: 4em;
+            margin: .4em;
+            padding: .1em;
             font-weight: bold;
-            font-size: 150%;
+            font-size: 100%;
             text-align: center;
             background: rgb(27, 74, 33);
             color: #FFFFFF;
             cursor: pointer;
-            border: 1px solid #999999;
+            border: .1em solid #999999;
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
