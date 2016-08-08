@@ -38,22 +38,22 @@ body{
         }
         
         input.icon {
-            border-radius: 10px;
+            border-radius:10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
-            width: .8em;
-            cursor: pointer;
+            width:.8em;
+            cursor:pointer;
         }
         input.icon:hover {
             font:1.4em helvetica;
             font-family:helvetica;
-            color: rgb(26, 41, 27);
+            color:rgb(26, 41, 27);
             background-color:rgb(207, 199, 207);
             border:solid rgb(27, 74, 33) 2px;
-            border-radius: 10px;
-            -webkit-box-shadow: 6px 6px 5px #999999;
-            -moz-box-shadow: 6px 6px 5px #999999;
-            text: <p><a href="http://hafez.jp">Hafez</a> Persian/Turkish <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a></p>;
+            border-radius:10px;
+            -webkit-box-shadow:6px 6px 5px #999999;
+            -moz-box-shadow:6px 6px 5px #999999;
+            text:<a href="http://hafez.jp">Hafez</a> Persian/Turkish <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a>;
                                     
         }
         
