@@ -42,9 +42,6 @@ body{
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
-            position:absolute;
-            top:74em;
-            right:25em;
         }
         
         .icon_mosque {
@@ -52,21 +49,31 @@ body{
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
-            position:absolute;
-            top:64em;
-            right:50em;                    
         }
         .icon_rest {
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
-            position:absolute;
-            top:80em;
-            right:29.5em;                    
-                    
         }
         
+        #SGH {
+            position:absolute;
+            top:74em;
+            right:25em;        
+        }
+        
+        #masjid {
+            position:absolute;
+            top:64em;
+            right:50em;         
+        }
+        
+        #hafez {
+            position:absolute;
+            top:80em;
+            right:29.5em;        
+        }
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
