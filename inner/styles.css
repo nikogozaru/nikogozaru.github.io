@@ -53,8 +53,8 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
             position:absolute;
-            top:50em;
-            right:40em;                    
+            top:60em;
+            right:50em;                    
         }
         .icon_rest {
             border-radius: 10px;
@@ -63,7 +63,7 @@ body{
             width: .8em;
             position:absolute;
             top:80em;
-            right:30em;                    
+            right:29em;                    
                     
         }
         
