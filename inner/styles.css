@@ -41,10 +41,10 @@ body{
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
-            width: 2em;
+            width: .8em;
             position:absolute;
-            top:20em;
-            right:15em;
+            top:100em;
+            right:20em;
         }
         
         h1 {
