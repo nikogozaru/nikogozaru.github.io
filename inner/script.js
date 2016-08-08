@@ -1,5 +1,3 @@
 $(document).ready(function(){
-  $('').hover(function() {
-    $('').changeClass('');
-  });
-})
+  $('icon').hover.changeClass('info_box');
+  })
