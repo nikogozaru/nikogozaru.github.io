@@ -37,6 +37,16 @@ body{
             overflow-x: hidden;       
         }
         
+        .icon_room {
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
+            width: 2em;
+            position:absolute;
+            top:20em;
+            right:15em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
