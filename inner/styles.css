@@ -37,20 +37,7 @@ body{
             overflow-x: hidden;       
         }
         
-        .icon_room {
-            border-radius: 10px;
-            -webkit-box-shadow: 6px 6px 5px #999999;
-            -moz-box-shadow: 6px 6px 5px #999999;
-            width: .8em;
-        }
-        
-        .icon_mosque {
-            border-radius: 10px;
-            -webkit-box-shadow: 6px 6px 5px #999999;
-            -moz-box-shadow: 6px 6px 5px #999999;
-            width: .8em;
-        }
-        .icon_rest {
+        .icon {
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
