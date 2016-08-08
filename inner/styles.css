@@ -37,13 +37,13 @@ body{
             overflow-x: hidden;       
         }
         
-        .icon {
+        input.icon {
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
         }
-        .info_box {
+        input.icon:hover {
             font:1.4em helvetica;
             font-family:helvetica;
             color: rgb(26, 41, 27);
