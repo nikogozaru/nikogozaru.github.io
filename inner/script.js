@@ -1,4 +1,8 @@
 $(document).ready(function(){
-  $(".icon").hover(function () {
-    $(this).toggleClass("info_box");
- });
+  $(".icon").hover(
+   function(e){
+       $(".info_box").show();
+   },
+   function(e){
+       $(".info_box").hide();
+  });
