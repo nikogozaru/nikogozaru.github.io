@@ -43,6 +43,24 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
             width: .8em;
         }
+        .info_box {
+            font:1.4em helvetica;
+            float: left;
+            top: 810px;
+            left: 15px;
+            clear: both;
+            font-family:helvetica;
+            color: rgb(26, 41, 27);
+            background-color:rgb(207, 199, 207);
+            margin-left:5.5em;
+            margin-bottom:1em;
+            border:solid rgb(27, 74, 33) 2px;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
+            text: <p><a href="http://hafez.jp">Hafez</a> Persian/Turkish <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a></p>;
+                                    
+        }
         
         #SGH {
             position:absolute;
