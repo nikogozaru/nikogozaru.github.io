@@ -158,6 +158,17 @@ body{
             right:30em;
         }
         
+        #istanbulkonak_icon {
+            position:absolute;
+            top:81em;
+            right:30.5em;        
+        }
+        #istanbulkonak {
+            position:absolute;
+            top:96em;
+            right:31em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
