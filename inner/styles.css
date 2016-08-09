@@ -57,16 +57,28 @@ body{
             -moz-box-shadow:6px 6px 5px #999999;
         }
         
-        #SGH {
+        #sgh_icon {
             position:absolute;
             top:74em;
             right:25em;        
         }
         
-        #masjid {
+        #sgh {
+            position:absolute;
+            top:89em;
+            right:25.5em;        
+        }
+        
+        #masjid_icon {
             position:absolute;
             top:64em;
             right:50em;         
+        }
+        
+        #masjid {
+            position:absolute;
+            top:79em;
+            right:50.5em;         
         }
         
         #hafez_icon {
