@@ -95,12 +95,23 @@ body{
         #ali_icon {
             position:absolute;
             top:79em;
-            right:28em;        
+            right:27.5em;        
         }
         #ali {
             position:absolute;
             top:94em;
             right:29em;
+        }
+        
+        #bintang_icon {
+            position:absolute;
+            top:79em;
+            right:26.5em;        
+        }
+        #bintang {
+            position:absolute;
+            top:94em;
+            right:27em;
         }
         
         h1 {
