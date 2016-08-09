@@ -91,6 +91,18 @@ body{
             top:95em;
             right:30em;
         }
+        
+        #ali_icon {
+            position:absolute;
+            top:81em;
+            right:30.5em;        
+        }
+        #ali {
+            position:absolute;
+            top:94em;
+            right:29em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
