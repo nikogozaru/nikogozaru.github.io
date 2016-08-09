@@ -147,6 +147,17 @@ body{
             right:31em;
         }
         
+        #Sinasos_icon {
+            position:absolute;
+            top:63em;
+            right:29.5em;        
+        }
+        #Sinasos {
+            position:absolute;
+            top:72em;
+            right:30em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
