@@ -5,12 +5,15 @@
         <title>Halal Osaka</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
             <script>
-                $(document).ready(function(){
-                    $(".info_box").hide();
-                    $(".icon").click(function(){
-                    $(".icon").toggleClass(".info_box");
+               $(document).ready(function(){
+                    $("h4").hide();
+                    $("#hafez_icon").click(function(){
+                    $("#hafez").toggle();
                     });
-                });
+                    /*$("#ali_icon").click(function(){
+                    $("#ali").toggle();
+                    });*/
+});
 </script>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
@@ -29,11 +32,11 @@
             <h2>Halal Food in Japan!</h2>
             <p>Visiting Japan can be a challenge for Muslims.  This list of restaurants and shops selling halal foods is meant to make your visit to Japan easier and more enjoyable.  There are many great restaurants with fully halal menus and many more Muslim friendly restaurants serving special halal meals.  You can enjoy the tastes from home or even local flavors.  Besides restaurants and shops, you can find information on local mosques and other services to make your stay enjoyable and memorable.</p>
             
-            <p id="hafezT" class="info_box"><a href="http://hafez.jp">Hafez</a> Turkish/Persian <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a></p>
+            <h4 id="hafez" class="info_box"><a href="http://hafez.jp">Hafez</a> Turkish/Persian <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a></p>
             <img class="map" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/map.png">
             <img id="SGH" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_room.png">
             <img id="masjid" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_mosque.png">
-            <img id="hafez" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="hafez_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
             
                 <!--<div id="list"><h3>Restaurants:</h3>
                     <p id="list_p">Click name for link to website and location for map.  Scroll down in this box to see more.</p>
