@@ -45,7 +45,7 @@ body{
             cursor:pointer;
         }
         .info_box {
-            font:1.4em helvetica;
+            font:.8em helvetica;
             font-family:helvetica;
             color:rgb(26, 41, 27);
             background-color:rgb(207, 199, 207);
