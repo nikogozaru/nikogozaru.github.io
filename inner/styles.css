@@ -59,13 +59,13 @@ body{
         
         #sgh_icon {
             position:absolute;
-            top:74em;
+            top:80em;
             right:25em;        
         }
         
         #sgh {
             position:absolute;
-            top:87em;
+            top:95em;
             right:25.5em;        
         }
         
@@ -133,6 +133,17 @@ body{
         #shama {
             position:absolute;
             top:95em;
+            right:31em;
+        }
+        
+        #honmachimughal_icon {
+            position:absolute;
+            top:74em;
+            right:30.5em;        
+        }
+        #honmachimughal {
+            position:absolute;
+            top:87em;
             right:31em;
         }
         
