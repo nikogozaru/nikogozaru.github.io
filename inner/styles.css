@@ -180,6 +180,17 @@ body{
             right:35em;
         }
         
+        #babulhayat_icon {
+            position:absolute;
+            top:90em;
+            right:50.5em;        
+        }
+        #babulhayat {
+            position:absolute;
+            top:105em;
+            right:54.5em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
