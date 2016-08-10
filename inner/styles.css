@@ -21,7 +21,7 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
-        div.map{
+        .map{
              border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
@@ -38,14 +38,14 @@ body{
             overflow-x: hidden;       
         }
         
-        div.icon {
+        .icon {
             border-radius:10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
             width:1em;
             cursor:pointer;
         }
-        div.info_box {
+        .info_box {
             font:.8em helvetica;
             position: center;
             width:7em;
