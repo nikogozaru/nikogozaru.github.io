@@ -3,24 +3,104 @@
     <head>
         <meta charset="utf-8">
         <title>Halal Osaka</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script>
+               $(document).ready(function(){
+                    $("h4").hide();
+                    $("#hafez_icon").click(function(){
+                    $("#hafez").toggle();
+                    });
+                    $("#sgh_icon").click(function(){
+                    $("#sgh").toggle();
+                    });
+                    $("#masjid_icon").click(function(){
+                    $("#masjid").toggle();
+                    });
+                    $("#ali_icon").click(function(){
+                    $("#ali").toggle();
+                    });
+                    $("#bintang_icon").click(function(){
+                    $("#bintang").toggle();
+                    });
+                    $("#osakahalal_icon").click(function(){
+                    $("#osakahalal").toggle();
+                    });
+                    $("#shama_icon").click(function(){
+                    $("#shama").toggle();
+                    });
+                    $("#honmachimughal_icon").click(function(){
+                    $("#honmachimughal").toggle();
+                    });
+                    $("#Sinasos_icon").click(function(){
+                    $("#Sinasos").toggle();
+                    });
+                    $("#istanbulkonak_icon").click(function(){
+                    $("#istanbulkonak").toggle();
+                    });
+                    $("#pyramids_icon").click(function(){
+                    $("#pyramids").toggle();
+                    });
+                    $("#babulhayat_icon").click(function(){
+                    $("#babulhayat").toggle();
+                    });
+                    $("#Ganko_icon").click(function(){
+                    $("#Ganko").toggle();
+                    });
+                    $("#kurakus_icon").click(function(){
+                    $("#kurakus").toggle();
+                    });
+});
+</script>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <form>
-    <input class="MyButton" type="button" value="Home" onclick="window.location.href='inner/home.html';"/>
-    <input class="MyButton" type="button" value="Restaurant Reviews" onclick="window.location.href='inner/restreview.html';"/>
-    <input class="MyButton" type="button" value="Halal Markets" onclick="window.location.href='inner/markets.html';"/>
-    <input class="MyButton" type="button" value="Accommodation" onclick="window.location.href='inner/accommodation.html';"/>
+    <input class="MyButton" type="button" value="Home" onclick="window.location.href='/inner/home.html';"/>
+    <input class="MyButton" type="button" value="Restaurant Reviews" onclick="window.location.href='/inner/restreview.html';"/>
+    <input class="MyButton" type="button" value="Halal Markets" onclick="window.location.href='/inner/markets.html';"/>
+    <input class="MyButton" type="button" value="Accommodation" onclick="window.location.href='/inner/accommodation.html';"/>
     </form>
 
-        <img class="image" src="https://www.kasandbox.org/programming-images/food/sushi.png" alt="two candles burning in the dark" width="100%">
+        <img class="image" src="https://www.kasandbox.org/programming-images/food/sushi.png" alt="Plate of sushi" width="100%">
         
 
 <h1>和食</h1>
             <h2>Halal Food in Japan!</h2>
             <p>Visiting Japan can be a challenge for Muslims.  This list of restaurants and shops selling halal foods is meant to make your visit to Japan easier and more enjoyable.  There are many great restaurants with fully halal menus and many more Muslim friendly restaurants serving special halal meals.  You can enjoy the tastes from home or even local flavors.  Besides restaurants and shops, you can find information on local mosques and other services to make your stay enjoyable and memorable.</p>
-        
-                <div id="list"><h3>Restaurants:</h3>
+            
+            <!--icons-->
+            <img class="map" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/map.png">
+            <img id="sgh_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_room.png">
+            <img id="masjid_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_mosque.png">
+            <img id="hafez_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="ali_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="bintang_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="osakahalal_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="shama_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="honmachimughal_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="Sinasos_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="istanbulkonak_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="pyramids_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="babulhayat_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="Ganko_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            <img id="kurakus_icon" class="icon" src="https://raw.githubusercontent.com/nikogozaru/nikogozaru.github.io/master/icon_rest.png">
+            
+            <!--info boxes-->
+            <h4 id="hafez" class="info_box"><a href="http://hafez.jp">Hafez</a> Turkish/Persian <a href="https://www.google.co.jp/maps/place/ハーフェズ/@34.672595,135.496821,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fe2f2b90b:0xfa3ba988d1b66d27?hl=ja">Map</a></h4>
+            <h4 id="ali" class="info_box"><a href="http://www.aliskitchen.jp">Ali's Kitchen</a> Pakistani <a href="https://www.google.co.jp/maps/place/1+Chome-10-12+Shinsaibashisuji,+Chūō-ku,+Ōsaka-shi,+Ōsaka-fu+542-0085/@34.6748037,135.5009408,17z/data=!4m5!3m4!1s0x6000e710a5bf9481:0x365335f5cc2a154e!8m2!3d34.6748037!4d135.5009408">Map</a></h4>
+            <h4 id="bintang" class="info_box"><a href="http://tabelog.com/en/osaka/A2701/A270201/27077652/">Cafe Bintang</a> Indonisian <a href="https://www.google.co.jp/maps/place/1+Chome-19-19+Higashishinsaibashi,+Chūō-ku,+Ōsaka-shi,+Ōsaka-fu+542-0083/@34.6746315,135.5027489,17z/data=!4m5!3m4!1s0x6000e7173e0e75d7:0xfddd6bb048079a6d!8m2!3d34.6746315!4d135.5027489">Map</a></h4>
+            <h4 id="osakahalal" class="info_box"><a href="http://tabelog.com/en/osaka/A2701/A270407/27072992/">Osaka HALAL Restaurant</a> Pakistani <a href="https://www.google.co.jp/maps/place/大阪府大阪市西淀川区大和田４丁目１３−２/@34.7085039,135.4447866,17z/data=!3m1!4b1!4">Map</a></h4>
+            <h4 id="shama" class="info_box"><a href="http://indoshama.jimdo.com">Shama</a> Indian <a href="https://www.google.co.jp/maps/place/インドレストラン+Shama/@34.6727317,135.4942497,17z/data=!3m1!4b1!4m5!3m4!1s0x6000e70ffa48ecdf:0xbc3ff4e7400bbacf!8m2!3d34.6727317!4d135.4964384">Map</a></h4>
+            <h4 id="honmachimughal" class="info_box"><a href="http://mughal.jp/free/honmachi">Honmachi Mughal</a> Pakistani <a href="https://www.google.co.jp/maps/place/1+Chome-6-7+Nishihonmachi,+Nishi-ku,+Ōsaka-shi,+Ōsaka-fu+550-0005/@34.6827833,135.4943244,17z/data=!3m1!4b1!4m5!3m4!1s0x6000e6fd4ec08295:0x830bf78b28c89c1b!8m2!3d34.6827833!4d135.4965131?hl=en">Map</a></h4>
+            <h4 id="Sinasos" class="info_box"><a href="http://www.sinasos13.com">Sinasos</a> Pakistani <a href="https://www.google.co.jp/maps/place/大阪府大阪市北区堂山町１６−１２/@34.7041116,135.5027342,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e694ecac8615:0xe6723e">Map</a></h4>
+            <h4 id="istanbulkonak" class="info_box"><a href="http://r.gnavi.co.jp/k170900/lang/en/">Istanbul Konak</a> Turkish <a href="https://www.google.co.jp/maps/place/イスタンブールコナック/@34.672257,135.496239,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e70fef12945d:0xbfab9b4427266b7d?hl=ja">Map</a></h4>
+            <h4 id="pyramids" class="info_box"><a href="http://pyramids.jp">Pyramids</a> Egyption <a href="https://www.google.co.jp/maps/place/エジプト料理ピラミッド/@34.7088412,135.4892187,14z/data=!3m1!5s0x6000e6886135e3e9:0x1308381adef03790!4m5!1m2!2m1!1z6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65Lit">Map</a></h4>
+            <h4 id="babulhayat" class="info_box"><a href="http://tabelog.com/osaka/A2701/A270402/27040159/">Bab-ul Hayat</a> Turkish <a href="https://www.google.co.jp/maps/place/Bab-ul+Hayat/@34.652877,135.430162,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e8f53be0e55f:0x25b1aead46ed846?hl=ja">Map</a></h4>
+            <h4 id="Ganko" class="info_box"><a href="http://www.gankofood.co.jp/halal/">Ganko Osaka Houzenji </a> Japanese <a href="https://www.google.co.jp/maps/place/1+Chome-2-2+Nanba,+Chūō-ku,+Ōsaka-shi,+Ōsaka-fu+542-0076/@34.66781,135.5030269,17z/data=!4m5!3m4!1s0x6000e714c61ba7df:0xc2c557ebd40934d!8m2!3d34.6678961!4d135.5029186">Map</a></h4>
+            <h4 id="kurakus" class="info_box"><a href="http://www.karakus-jp.com">Karakus</a> Turkish <a href="https://www.google.co.jp/maps/place/トルコカフェ+KARAKUS+カラクシュ/@34.661466,135.504796,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e769b36d4185:0x5ce01558137e5b39?hl=ja">Map</a></h4>
+            <h4 id="masjid" class="info_box"><a href="http://hafez.jp">Osaka Masjid</a><a href="https://www.google.co.jp/maps/place/4+Chome-12-16+Ōwada,+Nishiyodogawa-ku,+Ōsaka-shi,+Ōsaka-fu+555-0032/@34.7083854,135.4428201,17.12z/data=!4m5!3m4!1s0x6000ef5c21cc7fc5:0xb741f7e489f8618e!8m2!3d34.7083122!4d135.4448949?hl=en">Map</a></h4>
+            <h4 id="sgh" class="info_box"><a href="https://www.airbnb.com/rooms/9094520">Shinsaibashi Gallery House</a> Accommodation </h4>
+             <!--<div id="list"><h3>Restaurants:</h3>
                     <p id="list_p">Click name for link to website and location for map.  Scroll down in this box to see more.</p>
         
                         <table id="table">
@@ -89,7 +169,7 @@
                                 <td>Turkish</td>
                                 <td><a href="https://www.google.co.jp/maps/place/トルコカフェ+KARAKUS+カラクシュ/@34.661466,135.504796,17z/data=!3m1!4b1!4m2!3m1!1s0x6000e769b36d4185:0x5ce01558137e5b39?hl=ja">Namba</a></td>
                             </tr>
-                        </table></div>
+                        </table></div>-->
                 <h3>About the Community</h3>
                     <p>There has been a strong Muslim community in Kansai for decades.  The largest mosque in Japan can be found in Kobe built in 1935.  The <a href="http://www.chabad.org/centers/default_cdo/aid/2647491/jewish/Chabad-of-Kansai.htm">Kobe Muslim Mosque</a> holds regular services for local muslims and visitors.  The <a href="http://osakamasjid.info">Osaka Masjid</a> also holds services in northern Osaka.  Both locations have halal markets and restaurants close by.  The Osaka Masjid can even arrange delivery of <a href="http://osakamasjid.info/?page_id=5">halal foods</a> to your accommodation</p>
         
