@@ -21,7 +21,7 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
-        .map{
+        div.map{
              border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
