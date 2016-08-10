@@ -202,6 +202,17 @@ body{
             right:29em;
         }
         
+        #kurakus_icon {
+            position:absolute;
+            top:84em;
+            right:26.5em;        
+        }
+        #kurakus {
+            position:absolute;
+            top:99.5em;
+            right:27em;
+        }
+        
         h1 {
             font:11em cursive;
             color: rgb(27, 74, 33);
