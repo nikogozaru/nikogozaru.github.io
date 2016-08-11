@@ -40,7 +40,7 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
             position:absolute;
             border: solid rgb(27, 74, 33) 2px;
-            top: 68em;
+            top: 68.5em;
             right: 1.5em;
             color: rgb(26, 41, 27);
             width: 70%;
@@ -226,7 +226,7 @@ body{
         
         #map_intro {
             position:absolute;
-            top:23em;
+            top:23.5em;
             right:.5em;
             font:2.5em helvetica;
             color:yellow;
