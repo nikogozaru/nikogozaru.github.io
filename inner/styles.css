@@ -29,7 +29,7 @@ body{
         
         div.phrases {
             position:absolute;
-            bottom:0;
+            top:20em;
             width 70%
             clear:both;
         }
