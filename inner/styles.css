@@ -21,6 +21,12 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
+        div.about {
+            position:absolute;
+            left:6em;
+            width:10%;
+        }
+        
         div.map{
              border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
