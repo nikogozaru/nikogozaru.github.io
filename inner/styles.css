@@ -27,6 +27,13 @@ body{
             width:18%;
         }
         
+        div.phrases {
+            position:absolute;
+            bottom:0;
+            width 70%
+            clear:both;
+        }
+        
         div.map{
              border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
