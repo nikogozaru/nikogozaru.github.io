@@ -76,14 +76,14 @@ body{
         
         #sgh {
             position:absolute;
-            top:20em;
+            top:18em;
             right:17.5em;        
         }
         
         #masjid_icon {
             position:absolute;
             top:8.5em;
-            right:49em;         
+            right:54em;         
         }
         
         #masjid {
@@ -99,7 +99,7 @@ body{
         }
         #hafez {
             position:absolute;
-            top:17em;
+            top:19em;
             right:17em;
         }
         
@@ -110,7 +110,7 @@ body{
         }
         #ali {
             position:absolute;
-            top:23em;
+            top:20em;
             right:21em;
         }
         
@@ -121,7 +121,7 @@ body{
         }
         #bintang {
             position:absolute;
-            top:23em;
+            top:20em;
             right:20em;
         }
         
@@ -132,7 +132,7 @@ body{
         }
         #osakahalal {
             position:absolute;
-            top:4em;
+            top:2em;
             right:37.5em;
         }
         
@@ -171,13 +171,13 @@ body{
         
         #istanbulkonak_icon {
             position:absolute;
-            top:23em;
-            right:23em;        
+            top:27em;
+            right:27em;        
         }
         #istanbulkonak {
             position:absolute;
-            top:33em;
-            right:33em;
+            top:23em;
+            right:23em;
         }
         
         #pyramids_icon {
@@ -187,8 +187,8 @@ body{
         }
         #pyramids {
             position:absolute;
-            top:1em;
-            right:10em;
+            top:.5em;
+            right:13em;
         }
         
         #babulhayat_icon {
@@ -198,8 +198,8 @@ body{
         }
         #babulhayat {
             position:absolute;
-            top:24em;
-            right:37.5em;
+            top:26em;
+            right:39.5em;
         }
         
         #Ganko_icon {
@@ -209,7 +209,7 @@ body{
         }
         #Ganko {
             position:absolute;
-            top:26.5em;
+            top:24.5em;
             right:20em;
         }
         
@@ -220,7 +220,7 @@ body{
         }
         #kurakus {
             position:absolute;
-            top:27em;
+            top:29em;
             right:17em;
         }
         
