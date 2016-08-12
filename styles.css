@@ -21,16 +21,27 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
-        .map{
+        div.about {
+            position:absolute;
+            left:.6em;
+            width:18%;
+        }
+        
+        div.phrases {
+            position:absolute;
+            top:110em;
+            width 70%
+            clear:both;
+        }
+        
+        div.map{
              border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
-            float: right;
+            position:absolute;
             border: solid rgb(27, 74, 33) 2px;
-            margin-top: 2em;
-            margin-left: 2em;
-            margin-right: 1em;
-            margin-bottom:2em;
+            top: 68.5em;
+            right: 1.5em;
             color: rgb(26, 41, 27);
             width: 70%;
             overflow-y: auto;
@@ -59,158 +70,166 @@ body{
         
         #sgh_icon {
             position:absolute;
-            top:78em;
-            right:25em;        
+            top:24em;
+            right:20em;        
         }
         
         #sgh {
             position:absolute;
-            top:92em;
-            right:25.5em;        
+            top:30em;
+            right:23.5em;        
         }
         
         #masjid_icon {
             position:absolute;
-            top:64em;
-            right:50em;         
+            top:8.5em;
+            right:49em;         
         }
         
         #masjid {
             position:absolute;
-            top:74em;
-            right:55.5em;         
+            top:9em;
+            right:58.5em;         
         }
         
         #hafez_icon {
             position:absolute;
-            top:80em;
-            right:29.5em;        
+            top:26em;
+            right:25.5em;        
         }
         #hafez {
             position:absolute;
-            top:95em;
+            top:30em;
             right:30em;
         }
         
         #ali_icon {
             position:absolute;
-            top:79em;
-            right:27.5em;        
+            top:25.5em;
+            right:23.5em;        
         }
         #ali {
             position:absolute;
-            top:94em;
-            right:29em;
+            top:33em;
+            right:31em;
         }
         
         #bintang_icon {
             position:absolute;
-            top:79em;
-            right:26.5em;        
+            top:25.5em;
+            right:22.5em;        
         }
         #bintang {
             position:absolute;
-            top:94em;
-            right:27em;
+            top:33em;
+            right:29em;
         }
         
         #osakahalal_icon {
             position:absolute;
-            top:63em;
-            right:50.5em;        
+            top:7.5em;
+            right:49em;        
         }
         #osakahalal {
             position:absolute;
-            top:72em;
-            right:54.5em;
+            top:8em;
+            right:57.5em;
         }
         
         #shama_icon {
             position:absolute;
-            top:80em;
-            right:30.5em;        
+            top:26em;
+            right:27em;        
         }
         #shama {
             position:absolute;
-            top:95em;
-            right:31em;
+            top:32em;
+            right:33em;
         }
         
         #honmachimughal_icon {
             position:absolute;
-            top:74em;
-            right:30.5em;        
+            top:20em;
+            right:27.5em;        
         }
         #honmachimughal {
             position:absolute;
-            top:87em;
-            right:31em;
+            top:26em;
+            right:36em;
         }
         
         #Sinasos_icon {
             position:absolute;
-            top:63em;
-            right:29.5em;        
+            top:8em;
+            right:26em;        
         }
         #Sinasos {
             position:absolute;
-            top:72em;
-            right:30em;
+            top:8em;
+            right:31em;
         }
         
         #istanbulkonak_icon {
             position:absolute;
-            top:81em;
-            right:30.5em;        
+            top:27em;
+            right:27em;        
         }
         #istanbulkonak {
             position:absolute;
-            top:96em;
-            right:31em;
+            top:33em;
+            right:33em;
         }
         
         #pyramids_icon {
             position:absolute;
-            top:57em;
-            right:33em;        
+            top:2em;
+            right:28em;        
         }
         #pyramids {
             position:absolute;
-            top:66em;
-            right:35em;
+            top:2em;
+            right:3em;
         }
         
         #babulhayat_icon {
             position:absolute;
-            top:86em;
-            right:50.5em;        
+            top:32em;
+            right:49.5em;        
         }
         #babulhayat {
             position:absolute;
-            top:103em;
-            right:54.5em;
+            top:34em;
+            right:57.5em;
         }
         
         #Ganko_icon {
             position:absolute;
-            top:82.5em;
-            right:27.5em;        
+            top:29.5em;
+            right:23em;        
         }
         #Ganko {
             position:absolute;
-            top:98em;
-            right:29em;
+            top:36.5em;
+            right:30em;
         }
         
         #kurakus_icon {
             position:absolute;
-            top:84em;
-            right:26.5em;        
+            top:33em;
+            right:22.5em;        
         }
         #kurakus {
             position:absolute;
-            top:99.5em;
+            top:37em;
             right:27em;
+        }
+        
+        #map_intro {
+            position:absolute;
+            top:23.5em;
+            right:.5em;
+            font:2.5em helvetica;
+            color:yellow;
         }
         
         h1 {
