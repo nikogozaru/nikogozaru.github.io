@@ -6,12 +6,23 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-         <form>
+         <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        
+        <form>
     <input class="MyButton" type="button" value="Home" onclick="window.location.href='/inner/home.html';"/>
     <input class="MyButton" type="button" value="Restaurant Reviews" onclick="window.location.href='/inner/restreview.html';"/>
     <input class="MyButton" type="button" value="Halal Markets" onclick="window.location.href='/inner/markets.html';"/>
     <input class="MyButton" type="button" value="Accommodation" onclick="window.location.href='/inner/accommodation.html';"/>
     </form>
+    <div class="fb-like" data-href="https://osakahalal.com" data-width="30" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
 
 <h2>Restaurant Reviews</h2>
                 <p>We cannot make it to all the the restaurants but here are some of the places we have visited and some of our thoughts on the food and service.  Make sure to click on the name of the restaurant to get more information fro their website and the location to see a map.  We would love to hear your feedback.</p>
