@@ -54,12 +54,22 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        
         <form>
     <input class="MyButton" type="button" value="Home" onclick="window.location.href='/inner/home.html';"/>
     <input class="MyButton" type="button" value="Restaurant Reviews" onclick="window.location.href='/inner/restreview.html';"/>
     <input class="MyButton" type="button" value="Halal Markets" onclick="window.location.href='/inner/markets.html';"/>
     <input class="MyButton" type="button" value="Accommodation" onclick="window.location.href='/inner/accommodation.html';"/>
     </form>
+    <div class="fb-like" data-href="https://osakahalal.com" data-width="20" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
 
         <img class="image" src="https://www.kasandbox.org/programming-images/food/sushi.png" alt="Plate of sushi" width="100%">
         
