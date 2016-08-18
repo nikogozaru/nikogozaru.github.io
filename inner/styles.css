@@ -25,8 +25,8 @@ body{
             float: right;
         }
         
-        div.shopItem.paypal{
-            float: right;
+        div.shopItem{
+            display: inline-block;
         }
         
         div.about {
