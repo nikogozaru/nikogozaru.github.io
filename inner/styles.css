@@ -30,6 +30,10 @@ body{
             margin-right:4em;
         }
         
+        .shopItem{
+            margin-left:4em;
+        }
+        
         div.about {
             position:absolute;
             left:.6em;
