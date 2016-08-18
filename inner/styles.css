@@ -25,6 +25,10 @@ body{
             float: right;
         }
         
+        .paypal{
+            float: right;
+        }
+        
         div.about {
             position:absolute;
             left:.6em;
