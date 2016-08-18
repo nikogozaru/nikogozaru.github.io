@@ -27,6 +27,7 @@ body{
         
         .paypal{
             float: right;
+            margin-right:4em;
         }
         
         div.about {
