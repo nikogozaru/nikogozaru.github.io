@@ -25,7 +25,7 @@ body{
             float: right;
         }
         
-        div.shopItem{
+        .shopItem{
             display: inline-block;
         }
         
