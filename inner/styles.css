@@ -41,7 +41,7 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
-        div.shopItem.pic{
+        .shopItem pic{
             clear:both;
             margin:2em;
             width:5em;
@@ -50,7 +50,7 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;        
         }
         
-        div.shopItem p{
+        .shopItem p{
             text-align:center
             vertical-align: middle;
             padding:1em;
