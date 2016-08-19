@@ -51,7 +51,7 @@ body{
         }
         
         .shopItem p{
-            position:absolute;
+            position:relative;
             font:1.3em helvetica;
             clear:both;
             color:rgb(26, 41, 27);
