@@ -51,7 +51,7 @@ body{
         }
         
         .shopItem p{
-            position:relative;
+            text-align:center
             padding:1em;
             font:1.3em helvetica;
             clear:both;
