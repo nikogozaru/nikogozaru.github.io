@@ -35,7 +35,7 @@ body{
             background:#F4EDED;
             margin-bottom:3em;
             margin-left:4em;
-            padding:1em;
+            padding:.5em;
             border-radius: 10px;
             width:20%;
             -webkit-box-shadow: 6px 6px 5px #999999;
@@ -43,9 +43,10 @@ body{
         }
         
         .shopItem pic{
+            position:relative;
             clear:both;
             margin:2em;
-            width:5em;
+            width:2em;
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;        
