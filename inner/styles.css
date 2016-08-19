@@ -31,6 +31,8 @@ body{
         }
         
         .shopItem{
+            display: inline-block;
+            background: white;
             margin-left:4em;
             border-radius: 10px;
             -webkit-box-shadow: 6px 6px 5px #999999;
@@ -316,12 +318,12 @@ body{
         .review {
            
             display: inline-block;
-    width: 40%;
-    height:40%;
-    margin-top: 1.5em;
-    margin-left: 1.5em;
-    margin-right: .8em;
-    margin-bottom: .8em;
+            width: 40%;
+            height:40%;
+            margin-top: 1.5em;
+            margin-left: 1.5em;
+            margin-right: .8em;
+            margin-bottom: .8em;
     
         }
         
