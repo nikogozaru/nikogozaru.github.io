@@ -55,7 +55,7 @@ body{
         .shopItem p{
             text-align:center
             vertical-align: middle;
-            padding:1em;
+            margin-left:3em;
             font:1.3em helvetica;
             color:rgb(26, 41, 27);
         }
