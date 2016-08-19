@@ -51,7 +51,8 @@ body{
         }
         
         .shopItem p{
-            clear:both;        
+            clear:both;
+            color:red;
         }
         
         div.about {
