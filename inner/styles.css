@@ -52,7 +52,9 @@ body{
         
         .shopItem p{
             position:absolute;
+            font:1.3em helvetica;
             clear:both;
+            color:rgb(26, 41, 27);
         }
         
         div.about {
