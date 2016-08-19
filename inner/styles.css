@@ -32,9 +32,11 @@ body{
         
         .shopItem{
             display: inline-block;
-            background: white;
+            background:F4EDED;
+            margin-bottom:3em;
             margin-left:4em;
             border-radius: 10px;
+            width:20%;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
         }
