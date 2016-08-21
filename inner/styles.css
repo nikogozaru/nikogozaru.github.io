@@ -21,6 +21,34 @@ body{
             -moz-box-shadow: 6px 6px 5px #999999;
         }
         
+        .article {
+            display:inline;
+            background:#F4EDED;
+            margin-bottom:3em;
+            margin-left:4em;
+            padding:.5em;
+            width:100%;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;
+        }
+        .article pic{
+            position:relative;
+            clear:both;
+            margin:2em;
+            width:2em;
+            border-radius: 10px;
+            -webkit-box-shadow: 6px 6px 5px #999999;
+            -moz-box-shadow: 6px 6px 5px #999999;        
+        }
+        
+        .article p{
+            text-align:center
+            vertical-align: middle;
+            margin-left:3em;
+            font:1.3em helvetica;
+            color:rgb(26, 41, 27);
+        
         .fb-like{
             float: right;
         }
