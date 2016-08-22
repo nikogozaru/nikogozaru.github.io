@@ -62,7 +62,7 @@ body{
             margin-left:4em;
             padding:.5em;
             border-radius: 10px;
-            width:20%;
+            width:12%;
             -webkit-box-shadow: 6px 6px 5px #999999;
             -moz-box-shadow: 6px 6px 5px #999999;
         }
@@ -81,7 +81,7 @@ body{
             text-align:center
             vertical-align: middle;
             margin-left:3em;
-            font:1.3em helvetica;
+            font:.8em helvetica;
             color:rgb(26, 41, 27);
         }
         
